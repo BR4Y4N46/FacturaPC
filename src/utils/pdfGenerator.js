@@ -11,11 +11,11 @@ export function generarPDF(factura) {
   doc.setTextColor(255, 255, 255);
   doc.setFontSize(16);
   doc.setFont('helvetica', 'bold');
-  doc.text('TECNO-PC', ancho / 2, 10, { align: 'center' });
+  doc.text('ASTRASOFTHARD-PC', ancho / 2, 10, { align: 'center' });
   doc.setFontSize(8);
   doc.setFont('helvetica', 'normal');
   doc.text('Servicio Tecnico Especializado', ancho / 2, 15, { align: 'center' });
-  doc.text('Tel: +57 300 000 0000', ancho / 2, 19, { align: 'center' });
+  doc.text('WHATSAPP: +57 3023652811', ancho / 2, 19, { align: 'center' });
 
   y = 30;
   doc.setTextColor(15, 23, 42);
