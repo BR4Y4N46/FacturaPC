@@ -92,7 +92,7 @@ export function generarPDF(factura) {
   doc.setFont('helvetica', 'italic');
   doc.text('Gracias por su preferencia!', ancho / 2, y, { align: 'center' });
   y += 4;
-  doc.text('Garantia de 30 dias en todos los servicios', ancho / 2, y, {
+  doc.text('-----------------------------------', ancho / 2, y, {
     align: 'center',
   });
 
