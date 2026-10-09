@@ -20,11 +20,11 @@ export default function TicketPreview({ factura }) {
             <div className="w-11 h-11 mx-auto rounded-2xl bg-white/15 ring-1 ring-white/20 backdrop-blur flex items-center justify-center mb-2">
               <span className="text-xl">💻</span>
             </div>
-            <h2 className="text-lg font-bold tracking-wide">TECNO·PC</h2>
+            <h2 className="text-lg font-bold tracking-wide">ASTRASOFTHARD</h2>
             <p className="text-[10px] opacity-90 tracking-widest">
-              SERVICIO TÉCNICO
+              SISTEMS
             </p>
-            <p className="text-[10px] opacity-75 mt-1">📞 +57 300 000 0000</p>
+            <p className="text-[10px] opacity-75 mt-1">📞 +57 3023652811</p>
           </div>
         </div>
 
@@ -118,7 +118,7 @@ export default function TicketPreview({ factura }) {
             ¡Gracias por su preferencia!
           </p>
           <p className="text-[9px] text-slate-400 mt-0.5">
-            Garantía de 30 días en todos los servicios
+            -------------------------------------
           </p>
         </div>
       </div>
